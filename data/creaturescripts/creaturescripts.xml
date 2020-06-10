@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
-	<!-- Changes of Urmahlullu -->
-	<event type="death" name="SummonWild" event="script" script="quests/grave_danger/wild.lua"/>
-	<event type="death" name="SummonTamed" event="script" script="quests/grave_danger/tamed.lua"/>
-	<event type="death" name="SummonWisdom" event="script" script="quests/grave_danger/wisdom.lua"/>
-	<event type="death" name="SummonWeakened" event="script" script="quests/grave_danger/weakened.lua"/>
-
 	<!-- monsters -->
 	<event type="think" name="GazHaragothHeal" script="monster/gaz_haragoth_heal.lua"/>
 	<event type="think" name="GreaterMinion" script="monster/greater_minion.lua"/>
